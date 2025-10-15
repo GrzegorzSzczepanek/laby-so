@@ -1,0 +1,6 @@
+nowy_plik.txt
+konfiguracja.cfg
+dane_testowe.dat
+raport_koncowy.pdf
+skrypt_bezpieczenstwa.sh
+

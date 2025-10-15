@@ -1,0 +1,6 @@
+program1.sh
+uruchom.sh
+backup.sh
+deploy.sh
+update.sh
+

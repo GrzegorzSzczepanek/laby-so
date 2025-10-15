@@ -1,0 +1,16 @@
+raport.txt
+dane.csv
+skrypt.sh
+obraz.jpg
+dokument.pdf
+konfig.cfg
+log.txt
+backup.tar
+notatka.md
+plik1.dat
+plik2.dat
+analiza.py
+test.js
+style.css
+indeks.html
+
