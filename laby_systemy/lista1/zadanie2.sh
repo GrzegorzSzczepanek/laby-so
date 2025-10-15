@@ -1,5 +1,8 @@
 #!/bin/bash
-# Przenosi wszystkie pliki wykonywalne z jednego katalogu do drugiego, pozostawiając inne pliki i katalogi bez zmian.
+
+# Przesuwanie wszystkich plików z ustawionym prawem wykonywania z jednego katalogu do
+# drugiego. Pozostałe pliki w katalogu nie powinny być ruszane. Również katalogi nie są
+# przenoszone. Nazwy katalogów, źródłowego i docelowego, zadawane jako parametry skryptu.
 
 # ne - not equal
 if [ $# -ne 2 ]; then
@@ -16,7 +19,7 @@ if [[ ! -d "$katalog1" ]]; then
   exit 1
 fi
 
-if [[ ! -d "$katalog2" ]]; then
+if [[ ! -d "$katalog2t" ]]; then
   echo "Katalog nie istnieje"
   exit 1
 fi

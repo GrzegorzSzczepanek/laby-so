@@ -1,0 +1,3 @@
+test_files/empty1.txt
+test_files/empty2.log
+test_files/empty3.cfg
